@@ -19,3 +19,10 @@ Looking at the summary of the linear regression, we can see that vehicle length 
 The slope of the linear model is considered to be not 0 because our p-value is less than our assumed significance level of .05.
 
 This linear model is moderately effective at predicting mpg of MechaCar prototypes as indicated by the R-squared value of .7149, or 71.49%.
+
+## Summary Statistics on Suspension Coils
+Total Lots Summary | Individual Lot Summary
+:-----------------:|:---------------------:
+![total_summary](images/total_summary.png) | ![lot_summary](images/lot_summary.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the total lot summary, the data does meet the design specifications. However, looking at each individual lot summary, we can see that Lot 3 does not meet the variance of the suspension coils.
