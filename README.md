@@ -26,3 +26,11 @@ Total Lots Summary | Individual Lot Summary
 ![total_summary](images/total_summary.png) | ![lot_summary](images/lot_summary.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Looking at the total lot summary, the data does meet the design specifications. However, looking at each individual lot summary, we can see that Lot 3 does not meet the variance of the suspension coils.
+
+## T-Tests on Suspension Coils
+T-Test across all Lots | T-Tests for each Lot
+:---------------------:|:-------------------:
+![t_test_all](images/t_test_all.png) | ![t_test_each](images/t_test_each.png)
+
+Assuming our significance level of .05, our p-value for all manufacturing lots is above of significance level. Therefore, we do not have sufficient evidence to reject our null hypothesis, thus the two means are statistically similar. Looking at each lot individually, we can see that low 2 and 3 both have p-values greater than .05. Therefore means from both these lots are also statistically similar to the population mean. For lot 1, however, the p-value is less than .05. Which means that this lot's mean is not similar to our population's.
+
